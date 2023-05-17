@@ -1,4 +1,4 @@
-.header__link {
+.header__links {
     color: white;
     display: flex;
     justify-content: space-between;
@@ -11,21 +11,21 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .header__link {
-        margin-right: 95px;
+    .header__links {
+        margin-right: 48px;
         
     } 
 }
 
 @media screen and (max-width: 768px) {
-    .header__link {
-        margin-right: 71px;
+    .header__links {
+        margin-right: 24px;
     } 
 }
 
 
 @media screen and (max-width: 320px) {
-    .header__link {
+    .header__links {
         font-size: 18px;
         line-height: 20px;
         margin-top: 30px;

@@ -5,15 +5,8 @@
     /*object-fit: cover;*/
 }
 
-@media screen and (max-width: 1024px) {
-    .header__logo {
-        max-width: 176px;
-    }  
-}
-
 @media screen and (max-width: 768px) {
     .header__logo {
-        max-width: 176px;
         margin-left: 24px;
     }  
 }
@@ -25,6 +18,4 @@
         margin-left: 16px;
     }  
 }
-
-
 

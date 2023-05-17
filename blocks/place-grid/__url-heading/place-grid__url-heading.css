@@ -12,3 +12,9 @@
         line-height: 100%;
     }  
 }
+
+@media screen and (max-width: 320px) {
+    .place-grid__url-heading {
+        margin: 0;
+    }  
+}
