@@ -22,6 +22,7 @@
 @media screen and (max-width: 320px) {
     .place-grid__paragraph {
         width: 288px;
-        margin: 0;
+        margin-bottom: 12px;
+        /*margin: 0;*/
     }  
 }

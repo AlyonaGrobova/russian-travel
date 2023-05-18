@@ -3,7 +3,6 @@
     /*grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));*/
     grid-template-columns: 460px 1fr;
     gap: 48px 40px;
-    object-fit: contain;
     margin-top: 80px;
 }
 
@@ -17,8 +16,8 @@
  
 @media screen and (max-width: 768px) {
     .place-grid {
-        grid-template-columns: minmax(150px, 340px) 1fr;
-        gap: 48px 28px;
+        grid-template-columns: 330px 1fr;
+        gap: 48px 38px;
         margin: 58px auto 0;
     }  
 }
@@ -32,6 +31,6 @@
 @media screen and (max-width: 320px) {
     .place-grid {
         gap: 32px;
-        margin-top: 32px;
+        margin-top: 50px;
     }  
 }
