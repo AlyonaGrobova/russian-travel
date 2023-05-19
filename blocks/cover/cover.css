@@ -1,21 +1,9 @@
 .cover {
     font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
-    /*background-image: url(../../images/cover-trains.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;*/
     text-align: center;
     margin: 92px auto 0;
     max-width: calc( 100% - 96px );
 }
-/*.cover::after {
-    content: "";
-    width: 0;
-    height: 0;
-    margin-left: -1px;
-    padding-top: calc( 740 / 1184 * 100%);
-}*/
 
 @media screen and (max-width: 1024px) {
     .cover {
